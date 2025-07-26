@@ -56,3 +56,27 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.portfolio-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.portfolio-item {
+    background: #ffb6d5;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(255, 105, 180, 0.15);
+    padding: 25px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    cursor: pointer;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 24px rgba(214, 51, 132, 0.25);
+    background: #ffe4f7;
+}
